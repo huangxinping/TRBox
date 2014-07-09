@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D96E51F9157DC58700FF818F /* TRBoxEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = D96E51F7157DC58700FF818F /* TRBoxEditController.m */; };
+		D96E51FA157DC58700FF818F /* TRBoxEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D96E51F8157DC58700FF818F /* TRBoxEditController.xib */; };
+		D9776C1F157EF74F00F12950 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = D9776C1E157EF74F00F12950 /* p.png */; };
+		D9776C26157EFA5B00F12950 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D9776C25157EFA5B00F12950 /* icon.icns */; };
+		D9A7B5C0157DE0ED00C3D2F6 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B5BB157DE0ED00C3D2F6 /* c.png */; };
+		D9A7B5C1157DE0ED00C3D2F6 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B5BC157DE0ED00C3D2F6 /* d.png */; };
+		D9A7B5C2157DE0ED00C3D2F6 /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B5BD157DE0ED00C3D2F6 /* m.png */; };
+		D9A7B5C3157DE0ED00C3D2F6 /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B5BE157DE0ED00C3D2F6 /* s.png */; };
+		D9A7B5C4157DE0ED00C3D2F6 /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B5BF157DE0ED00C3D2F6 /* z.png */; };
+		D9A7B5CB157DFA3D00C3D2F6 /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A7B5CA157DFA3D00C3D2F6 /* rect.png */; };
+		D9CD14E7157C58CF0010FC0D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CD14E6157C58CF0010FC0D /* Cocoa.framework */; };
+		D9CD14F1157C58CF0010FC0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9CD14EF157C58CF0010FC0D /* InfoPlist.strings */; };
+		D9CD14F3157C58CF0010FC0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CD14F2157C58CF0010FC0D /* main.m */; };
+		D9CD14F7157C58CF0010FC0D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9CD14F5157C58CF0010FC0D /* Credits.rtf */; };
+		D9CD14FA157C58CF0010FC0D /* TRBoxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CD14F9157C58CF0010FC0D /* TRBoxAppDelegate.m */; };
+		D9CD14FD157C58CF0010FC0D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9CD14FB157C58CF0010FC0D /* MainMenu.xib */; };
+		D9CD1505157C58F20010FC0D /* TRBoxWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D9CD1504157C58F20010FC0D /* TRBoxWindow.m */; };
+		D9E7256A157C8E7000CD4584 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E72567157C8E7000CD4584 /* Controller.m */; };
+		D9E7256B157C8E7000CD4584 /* DragDropTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E72569157C8E7000CD4584 /* DragDropTableView.m */; };
+		D9E7258C157CA08600CD4584 /* SettingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E7258A157CA08600CD4584 /* SettingWindowController.m */; };
+		D9E7258D157CA08600CD4584 /* SettingWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9E7258B157CA08600CD4584 /* SettingWindowController.xib */; };
+		D9E725A2157CB02200CD4584 /* TRBoxSettting.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E725A1157CB02200CD4584 /* TRBoxSettting.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D96E51F6157DC58700FF818F /* TRBoxEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRBoxEditController.h; sourceTree = "<group>"; };
+		D96E51F7157DC58700FF818F /* TRBoxEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRBoxEditController.m; sourceTree = "<group>"; };
+		D96E51F8157DC58700FF818F /* TRBoxEditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRBoxEditController.xib; sourceTree = "<group>"; };
+		D9776C1E157EF74F00F12950 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
+		D9776C25157EFA5B00F12950 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		D9A7B5BB157DE0ED00C3D2F6 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		D9A7B5BC157DE0ED00C3D2F6 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+		D9A7B5BD157DE0ED00C3D2F6 /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+		D9A7B5BE157DE0ED00C3D2F6 /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
+		D9A7B5BF157DE0ED00C3D2F6 /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = z.png; sourceTree = "<group>"; };
+		D9A7B5CA157DFA3D00C3D2F6 /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
+		D9CD14E2157C58CF0010FC0D /* TRBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CD14E6157C58CF0010FC0D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9CD14E9157C58CF0010FC0D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D9CD14EA157C58CF0010FC0D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9CD14EB157C58CF0010FC0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9CD14EE157C58CF0010FC0D /* TRBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRBox-Info.plist"; sourceTree = "<group>"; };
+		D9CD14F0157C58CF0010FC0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9CD14F2157C58CF0010FC0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9CD14F4157C58CF0010FC0D /* TRBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRBox-Prefix.pch"; sourceTree = "<group>"; };
+		D9CD14F6157C58CF0010FC0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D9CD14F8157C58CF0010FC0D /* TRBoxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRBoxAppDelegate.h; sourceTree = "<group>"; };
+		D9CD14F9157C58CF0010FC0D /* TRBoxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRBoxAppDelegate.m; sourceTree = "<group>"; };
+		D9CD14FC157C58CF0010FC0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D9CD1503157C58F20010FC0D /* TRBoxWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRBoxWindow.h; sourceTree = "<group>"; };
+		D9CD1504157C58F20010FC0D /* TRBoxWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRBoxWindow.m; sourceTree = "<group>"; };
+		D9E72566157C8E7000CD4584 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		D9E72567157C8E7000CD4584 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		D9E72568157C8E7000CD4584 /* DragDropTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragDropTableView.h; sourceTree = "<group>"; };
+		D9E72569157C8E7000CD4584 /* DragDropTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragDropTableView.m; sourceTree = "<group>"; };
+		D9E72589157CA08600CD4584 /* SettingWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingWindowController.h; sourceTree = "<group>"; };
+		D9E7258A157CA08600CD4584 /* SettingWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingWindowController.m; sourceTree = "<group>"; };
+		D9E7258B157CA08600CD4584 /* SettingWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWindowController.xib; sourceTree = "<group>"; };
+		D9E725A0157CB02200CD4584 /* TRBoxSettting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRBoxSettting.h; sourceTree = "<group>"; };
+		D9E725A1157CB02200CD4584 /* TRBoxSettting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRBoxSettting.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9CD14DF157C58CF0010FC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CD14E7157C58CF0010FC0D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D96E51F4157DC56E00FF818F /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				D96E51F6157DC58700FF818F /* TRBoxEditController.h */,
+				D96E51F7157DC58700FF818F /* TRBoxEditController.m */,
+				D96E51F8157DC58700FF818F /* TRBoxEditController.xib */,
+			);
+			name = edit;
+			sourceTree = "<group>";
+		};
+		D9A7B5BA157DE0ED00C3D2F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D9776C25157EFA5B00F12950 /* icon.icns */,
+				D9776C1E157EF74F00F12950 /* p.png */,
+				D9A7B5CA157DFA3D00C3D2F6 /* rect.png */,
+				D9A7B5BB157DE0ED00C3D2F6 /* c.png */,
+				D9A7B5BC157DE0ED00C3D2F6 /* d.png */,
+				D9A7B5BD157DE0ED00C3D2F6 /* m.png */,
+				D9A7B5BE157DE0ED00C3D2F6 /* s.png */,
+				D9A7B5BF157DE0ED00C3D2F6 /* z.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D9CD14D7157C58CF0010FC0D = {
+			isa = PBXGroup;
+			children = (
+				D9CD14EC157C58CF0010FC0D /* TRBox */,
+				D9CD14E5157C58CF0010FC0D /* Frameworks */,
+				D9CD14E3157C58CF0010FC0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9CD14E3157C58CF0010FC0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD14E2157C58CF0010FC0D /* TRBox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9CD14E5157C58CF0010FC0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD14E6157C58CF0010FC0D /* Cocoa.framework */,
+				D9CD14E8157C58CF0010FC0D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CD14E8157C58CF0010FC0D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD14E9157C58CF0010FC0D /* AppKit.framework */,
+				D9CD14EA157C58CF0010FC0D /* CoreData.framework */,
+				D9CD14EB157C58CF0010FC0D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D9CD14EC157C58CF0010FC0D /* TRBox */ = {
+			isa = PBXGroup;
+			children = (
+				D9A7B5BA157DE0ED00C3D2F6 /* Resources */,
+				D96E51F4157DC56E00FF818F /* edit */,
+				D9E725A3157CB40A00CD4584 /* setting */,
+				D9E72565157C8E7000CD4584 /* DragTable */,
+				D9CD1503157C58F20010FC0D /* TRBoxWindow.h */,
+				D9CD1504157C58F20010FC0D /* TRBoxWindow.m */,
+				D9CD14FB157C58CF0010FC0D /* MainMenu.xib */,
+				D9CD14F8157C58CF0010FC0D /* TRBoxAppDelegate.h */,
+				D9CD14F9157C58CF0010FC0D /* TRBoxAppDelegate.m */,
+				D9CD14ED157C58CF0010FC0D /* Supporting Files */,
+			);
+			path = TRBox;
+			sourceTree = "<group>";
+		};
+		D9CD14ED157C58CF0010FC0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9CD14EE157C58CF0010FC0D /* TRBox-Info.plist */,
+				D9CD14EF157C58CF0010FC0D /* InfoPlist.strings */,
+				D9CD14F2157C58CF0010FC0D /* main.m */,
+				D9CD14F4157C58CF0010FC0D /* TRBox-Prefix.pch */,
+				D9CD14F5157C58CF0010FC0D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9E72565157C8E7000CD4584 /* DragTable */ = {
+			isa = PBXGroup;
+			children = (
+				D9E72566157C8E7000CD4584 /* Controller.h */,
+				D9E72567157C8E7000CD4584 /* Controller.m */,
+				D9E72568157C8E7000CD4584 /* DragDropTableView.h */,
+				D9E72569157C8E7000CD4584 /* DragDropTableView.m */,
+			);
+			path = DragTable;
+			sourceTree = "<group>";
+		};
+		D9E725A3157CB40A00CD4584 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				D9E72589157CA08600CD4584 /* SettingWindowController.h */,
+				D9E7258A157CA08600CD4584 /* SettingWindowController.m */,
+				D9E7258B157CA08600CD4584 /* SettingWindowController.xib */,
+				D9E725A0157CB02200CD4584 /* TRBoxSettting.h */,
+				D9E725A1157CB02200CD4584 /* TRBoxSettting.m */,
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9CD14E1157C58CF0010FC0D /* TRBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9CD1500157C58CF0010FC0D /* Build configuration list for PBXNativeTarget "TRBox" */;
+			buildPhases = (
+				D9CD14DE157C58CF0010FC0D /* Sources */,
+				D9CD14DF157C58CF0010FC0D /* Frameworks */,
+				D9CD14E0157C58CF0010FC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRBox;
+			productName = TRBox;
+			productReference = D9CD14E2157C58CF0010FC0D /* TRBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9CD14D9157C58CF0010FC0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TRBox;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D9CD14DC157C58CF0010FC0D /* Build configuration list for PBXProject "TRBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9CD14D7157C58CF0010FC0D;
+			productRefGroup = D9CD14E3157C58CF0010FC0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9CD14E1157C58CF0010FC0D /* TRBox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9CD14E0157C58CF0010FC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CD14F1157C58CF0010FC0D /* InfoPlist.strings in Resources */,
+				D9CD14F7157C58CF0010FC0D /* Credits.rtf in Resources */,
+				D9CD14FD157C58CF0010FC0D /* MainMenu.xib in Resources */,
+				D9E7258D157CA08600CD4584 /* SettingWindowController.xib in Resources */,
+				D96E51FA157DC58700FF818F /* TRBoxEditController.xib in Resources */,
+				D9A7B5C0157DE0ED00C3D2F6 /* c.png in Resources */,
+				D9A7B5C1157DE0ED00C3D2F6 /* d.png in Resources */,
+				D9A7B5C2157DE0ED00C3D2F6 /* m.png in Resources */,
+				D9A7B5C3157DE0ED00C3D2F6 /* s.png in Resources */,
+				D9A7B5C4157DE0ED00C3D2F6 /* z.png in Resources */,
+				D9A7B5CB157DFA3D00C3D2F6 /* rect.png in Resources */,
+				D9776C1F157EF74F00F12950 /* p.png in Resources */,
+				D9776C26157EFA5B00F12950 /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9CD14DE157C58CF0010FC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CD14F3157C58CF0010FC0D /* main.m in Sources */,
+				D9CD14FA157C58CF0010FC0D /* TRBoxAppDelegate.m in Sources */,
+				D9CD1505157C58F20010FC0D /* TRBoxWindow.m in Sources */,
+				D9E7256A157C8E7000CD4584 /* Controller.m in Sources */,
+				D9E7256B157C8E7000CD4584 /* DragDropTableView.m in Sources */,
+				D9E7258C157CA08600CD4584 /* SettingWindowController.m in Sources */,
+				D9E725A2157CB02200CD4584 /* TRBoxSettting.m in Sources */,
+				D96E51F9157DC58700FF818F /* TRBoxEditController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9CD14EF157C58CF0010FC0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CD14F0157C58CF0010FC0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9CD14F5157C58CF0010FC0D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CD14F6157C58CF0010FC0D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D9CD14FB157C58CF0010FC0D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9CD14FC157C58CF0010FC0D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9CD14FE157C58CF0010FC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9CD14FF157C58CF0010FC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9CD1501157C58CF0010FC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRBox/TRBox-Prefix.pch";
+				INFOPLIST_FILE = "TRBox/TRBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9CD1502157C58CF0010FC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRBox/TRBox-Prefix.pch";
+				INFOPLIST_FILE = "TRBox/TRBox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9CD14DC157C58CF0010FC0D /* Build configuration list for PBXProject "TRBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CD14FE157C58CF0010FC0D /* Debug */,
+				D9CD14FF157C58CF0010FC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9CD1500157C58CF0010FC0D /* Build configuration list for PBXNativeTarget "TRBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9CD1501157C58CF0010FC0D /* Debug */,
+				D9CD1502157C58CF0010FC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9CD14D9157C58CF0010FC0D /* Project object */;
+}
